@@ -1,0 +1,247 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quiz-app {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(245, 245, 245, 0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Home Page Styles */
+.home-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('https://cdn.pixabay.com/photo/2020/09/23/07/53/question-mark-5595294_1280.jpg') no-repeat center center/cover;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.home-content {
+  position: relative;
+  z-index: 1;
+  color: #e2e2e2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.start-button {
+  background-color: #077220;
+  color: #fafafa;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #218838;
+}
+
+/* Existing Quiz Styles */
+h1 {
+  color: #86ff62;
+  margin-bottom: 20px;
+}
+
+.loading, .error {
+  font-size: 1.5rem;
+  color: #ff4500;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  /* The quiz content is now centered within the quiz-app container */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4CAF50;
+  transition: width 1s linear;
+}
+
+.timer {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff4500;
+  margin-bottom: 20px;
+}
+
+.progress {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: grid;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.option-button {
+  background-color: #e9ecef;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.option-button:hover:not(.selected) {
+  background-color: #d1d5db;
+}
+
+.option-button.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.prev-button, .next-button {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.prev-button {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.next-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.prev-button:disabled, .next-button:disabled {
+  background-color: #adb5bd;
+  cursor: not-allowed;
+}
+
+.results-container {
+  text-align: left;
+}
+
+.final-score {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.summary {
+  margin-top: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 15px;
+}
+
+.result-item {
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.correct-answer {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.your-answer {
+  color: #6c757d;
+}
+
+.your-answer.correct {
+  color: #28a745;
+}
+
+.your-answer.incorrect {
+  color: #dc3545;
+}
+
+.restart-button {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+}

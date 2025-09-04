@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Science & Nature",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which gas is a noble gas and has the chemical symbol 'He'?",
+    "correct_answer": "Helium",
+    "incorrect_answers": [
+      "Hydrogen",
+      "Neon",
+      "Nitrogen"
+    ]
+  },
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the capital city of Australia?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane"
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What does CPU stand for?",
+    "correct_answer": "Central Processing Unit",
+    "incorrect_answers": [
+      "Central Program Unit",
+      "Computer Processing Unit",
+      "Central Power Unit"
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of these is a 'Last-In, First-Out' (LIFO) data structure?",
+    "correct_answer": "Stack",
+    "incorrect_answers": [
+      "Queue",
+      "Linked List",
+      "Array"
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is a set of instructions used to solve a problem or perform a computation?",
+    "correct_answer": "Algorithm",
+    "incorrect_answers": [
+      "Data Structure",
+      "Protocol",
+      "Syntax"
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is a network security system that monitors and controls network traffic based on rules?",
+    "correct_answer": "Firewall",
+    "incorrect_answers": [
+      "Router",
+      "Antivirus",
+      "Modem"
+    ]
+  },
+  {
+    "category": "Computer Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In programming, when a function calls itself, it is known as...?",
+    "correct_answer": "Recursion",
+    "incorrect_answers": [
+      "Polymorphism",
+      "Inheritance",
+      "Encapsulation"
+    ]
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In the game 'Celeste', what is the name of the mountain the protagonist climbs?",
+    "correct_answer": "Mount Celeste",
+    "incorrect_answers": [
+      "Mount Everest",
+      "Mount Kilimanjaro",
+      "Mount Fuji"
+    ]
+  },
+  {
+    "category": "Mythology",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which of these mythological creatures is half-man and half-horse?",
+    "correct_answer": "Centaur",
+    "incorrect_answers": [
+      "Minotaur",
+      "Siren",
+      "Griffin"
+    ]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of these famous landmarks was completed in 1889?",
+    "correct_answer": "Eiffel Tower",
+    "incorrect_answers": [
+      "Statue of Liberty",
+      "Big Ben",
+      "The Colosseum"
+    ]
+  }
+]
