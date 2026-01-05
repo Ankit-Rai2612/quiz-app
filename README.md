@@ -9,7 +9,7 @@ It lets you test your knowledge with fun quizzes, track your performance, and sa
 ## ✨ Features
 
 - ✅ Fetches questions from the **Open Trivia DB API**
-- 📦 Offline fallback: uses local JSON if API is unavailable
+- 📦 Offline fallback: uses local JSON file if API is unavailable
 - ⏱️ 30-second timer per question with auto-lock
 - 📊 Progress bar with smooth animation
 - 🎯 Choose difficulty (Easy, Medium, Hard)
